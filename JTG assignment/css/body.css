@@ -1,0 +1,403 @@
+
+
+*{
+    font-family: Inter !important;
+    font-style: normal;
+
+}
+body{
+    margin:0px !important;
+}
+.container{
+    width: 100%;
+    margin: 0px;
+    height:666px;
+}
+.home{
+    height:737px;
+    width:100%;
+    position: relative;
+    left: -7px;
+    background-image: url("../assets/images/Background.png");
+    background-size: 100% 100%;
+}
+
+/* phone css */
+.screen {
+    position: absolute;
+    right: 110px;
+    top: 100px;
+    z-index: 1;
+    height:517px;
+}
+.phone{
+    position: absolute;
+    right:92px;
+    z-index: 10;
+    height:554px;
+    top:70px;
+}
+/* title */
+.title1{
+    font-size: 60px;
+    font-weight: bold;
+    width: 40%;
+    position: absolute;
+    top: 214px;
+    left: 166px;
+    margin: 0px;
+}
+.title2{
+    font-size: 60px;
+    font-weight: bold;
+    width: 40%;
+    margin: 0px;
+    position: absolute;
+    top: 293px;
+    left: 168px;
+}
+
+.home-btn{
+    position: absolute;
+    top: 413px;
+    left: 170px;
+    /* font-weight: bold; */
+    background-color: #8C30F5;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.slick-prev {
+    left: 10px !important;
+}
+.slick-next {
+    right: 169px !important;
+}
+.center{
+   
+    color: white;
+    height: 115px;
+    margin-left:100px;
+}
+.slider-item{
+    width: 99px !important;
+    height: 50px !important;
+   
+    margin-left: 121px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 27px;
+}
+.slick-prev{
+    background:url("../assets/images/arrows/prev.svg") !important;
+    position: relative;
+    left:-33px !important;
+    
+    z-index:1 !important;
+}
+
+
+
+/* features */
+.feature-page{
+    background-color: white;
+    display: grid;
+}
+.features{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap:3em;
+    margin-left: 100px;
+    margin-top:40px;
+}
+
+.hero-head{
+    font-weight: 1000;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    margin-top:67px;
+    margin-bottom: 10px;
+}
+.hero-subhead{
+    align-items: center;
+    text-align: center;
+    margin-bottom:18px;
+    font-weight: 500;
+}
+
+/* feature card */
+.featimg{
+    text-align: center;
+}
+.feature-head{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.feature-subhead{
+    text-align: center;
+    font-weight: 500;
+}
+
+/*  F E A T U R E      E N D */
+
+
+/* testimonial start */
+.testimonial{
+    background-color: #D5FAFC;
+    height:470px;
+    margin-top:100px;
+}
+.test-img{
+    position: relative;
+    top: 50px;
+    left: 243px;
+    opacity: 0.4;
+    width: 105px;
+    height: 79px;
+}
+.test-hero-head{
+    font-weight:bold;
+    font-size: 40px;
+    margin:0px;
+    width:50%;
+}
+.test-hero-subhead{
+    font-weight: 500;
+}
+.test-main-head{
+    position: relative;
+    left: 312px;
+    top: 0px;
+    width: 65%;
+}
+.test-sub-img{
+    opacity:0.3;
+    height: 15px;
+    width: 23px;
+    position: relative;
+    top: 35px;
+    left: 22px;
+}
+.testimonial1{
+    width: 304px;
+    height: 410px;
+    background-color: white;
+    margin: 0px;
+    position: relative;
+    left: 400px;
+    top: -68px;
+    border-radius: 6px;
+}
+.hubspot-logo{
+    height:30px;
+}
+.test-logo-u{
+    height: 21px;
+    margin: -2px;
+}
+.test-logo-b{
+    
+    margin: -2px;
+
+}
+
+.test-logo-s{
+   
+    margin: -2px;
+
+}.test-logo-p{
+    position: relative;
+    top: 7px;
+    margin: -2px;
+
+}.test-logo-o{
+    
+    margin: -2px;
+
+}.test-logo-t{
+    
+    margin: -2px;
+
+}
+.test-hub-logo{
+    position: relative;
+    top: 21px;
+    left: 25px;
+}
+
+.test-rev{
+    margin: 34px;
+    line-height: 1.7;
+    position: relative;
+    top: -13px;
+    left: 22px;
+}
+
+.test-auth{
+    font-weight: bold;
+    left: 57px;
+    position: relative;
+    top: -12px;
+}
+.test-auth-des{
+    font-weight: 500;
+    left: 57px;
+    position: relative;
+    top: -21px;
+    color: #969BAB;
+    font-size: 11px;
+}
+.test-2{
+    position: relative;
+    top: -617px;
+    left: 768px;
+    width: 367px;
+    height: 306px;
+}
+
+/* achievements  section start*/
+.achievements{
+    width: 100%;
+    height: 325px;
+    
+    margin-top: 301px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.achieve-head1{
+    position: relative;
+    font-size: 39px;
+    width: 237px;
+    font-weight: bold;
+}
+.achieve-head1{
+    width: 347px;
+}
+
+.achieve-head{
+    width: 45%;
+}
+.statistics{
+    display: grid;
+    grid-template-rows: 100% 100%;
+    grid-column: 2;
+}
+
+.stats{
+    display: flex;
+    position: relative;
+    left: 103px;
+    top: 112px;
+}
+.stat{
+    display: flex;
+    position: relative;
+    left: 103px;
+    top: -120px;
+    grid-row: 2;
+}
+.stat-main-head{
+    margin: 0px;
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    top: -14px;
+    left: 18px;
+}
+.stat-sub-head{
+    margin: 0px;
+    position: relative;
+    left: 20px;
+    top: -10px;
+    font-size: 13px;
+}
+.stat-1{
+    width: 293px;
+    display: flex;
+}
+.stat-2{
+    width: 293px;
+    display: flex;
+}
+.achievement{
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+/* achievements  section end*/
+
+
+
+/* phone-para part start */
+.phone-head{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height:608px;
+}
+
+.phone-view-raw{
+    position: relative;
+    top: 54px;
+    left: 291px;
+}
+
+.head-para{
+    width: 51%;
+    margin-left: 0px;
+    position: relative;
+    left: 150px;
+    top: 158px;
+    height: 36%;
+}
+.head-head{
+    font-size: 30px;
+    font-weight: bold;
+}
+.para{
+    line-height: 2;
+}
+
+/* phone-para part end */
+
+/* footer */
+.footer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 290px;
+    width: 100%;
+    background-color: rgba(11, 13, 23, 1);
+    color: white;
+    margin-top: 84px;
+    
+}
+
+.foot-span{
+    display: flex;
+}
+
+ .footer-link{
+    position: relative;
+    left: 285px;
+    top: 48px;
+    height: 224px;
+
+}
+.foot-link{
+    margin-right: 34px;
+
+}
+  
+.footer-img{
+    position: relative;
+    top: 50px;
+    height: 224px;
+    left: 100px;
+} 
+
+/* footer css */

@@ -1,0 +1,15 @@
+
+.slider-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+}
+.slide{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
